@@ -18,7 +18,7 @@ public class BaseBallTeam {
         }
 
         public void report() {
-            System.out.println(Baseballteam + "の2022年の成績は" + win"勝" + lose"敗" + draw"分"、"勝率は" + getrate　+ "です”);
+            System.out.println(name + "の2022年の成績は" + win + "勝" + lose + "敗" + draw + "分、勝率は" + getRate() + "です");
 
         }
 
@@ -38,7 +38,7 @@ public class BaseBallTeam {
         public int getDraw() {
             return draw;
         }
-    }
+
 
 
 }
